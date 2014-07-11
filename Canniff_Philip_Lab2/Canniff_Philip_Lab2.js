@@ -1,7 +1,7 @@
 alert("Psyche is trapped in a tree!");
 
 //These are my variables.
-var surfaceTemperature = "110 degrees Farenheit"; 
+var surfaceTemp = "110 degrees Farenheit"; 
 var whereIsPsyche = "Planet \"Dryad\"";
 var psychesAge = 19;
 var soiler = true;
@@ -10,7 +10,7 @@ var water = false;
 //These are my output
 console.log("Psyche lives on", whereIsPsyche, ".");
 console.log("Psyche is", psychesAge, "years old.");
-console.log("The surface temperature on Dryad is", surfaceTemperature, ".");
+console.log("The surface temperature on Dryad is", surfaceTemp, ".");
 console.log("It is", soiler, "that there is a soiler below her."); 
 console.log("It is", water, "about there being water nearby."); 
 
