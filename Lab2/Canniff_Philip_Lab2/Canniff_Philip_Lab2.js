@@ -27,3 +27,4 @@ psychesAge = parseInt(psychesAge);
 //These are my output
 console.log("Psyche will be", psychesAge, "in 5 years.");
 console.log("It is", soiler, "that the soiler will stay forever."); 
+
