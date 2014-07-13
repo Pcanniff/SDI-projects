@@ -3,7 +3,7 @@ alert("Don't wake the dragon!");
 		Philip A. Canniff
 		SDI 1407
 		07/14/2014
-		
+		Deliverable 1 (Lab 3)
  */
 var dragonType = ("Fire")
 var dragonColor = ("Firey \"Red\"");
