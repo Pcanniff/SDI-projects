@@ -9,46 +9,46 @@
 // BELOW ARE THE OPERATORS
 
 
-// var p;
-// var q;
-// var r;
-// 
-// var i = 0;
-// 
-// while (i < 8) {
-// 
-// p = confirm("First value:  Click OK for true or Cancel for false.");
-// q = confirm("Second value:  Click OK for true or Cancel for false.");
-// r = confirm("Third value: Click OK for true or Cancel for false.");
-// 
-// if (p || (q || r)) {
-    // console.log("With " + p + ", " + q + "and, " + r + ", the outcome is TRUE.");
-// } else {
-    // console.log("With " + p + ", " + q + "and, " + r + ", the outcome is FALSE.");
-	// }
-	// i++;
-// }
+var p;
+var q;
+var r;
+
+var i = 0;
+
+while (i < 8) {
+
+p = confirm("First value:  Click OK for true or Cancel for false.");
+q = confirm("Second value:  Click OK for true or Cancel for false.");
+r = confirm("Third value: Click OK for true or Cancel for false.");
+
+if (p || (q || r)) {
+    console.log("With " + p + ", " + q + "and, " + r + ", the outcome is TRUE.");
+} else {
+    console.log("With " + p + ", " + q + "and, " + r + ", the outcome is FALSE.");
+	}
+	i++;
+}
 
 
 // WORD PROBLEM ONE
 
-// here are my variables
-// var movieTicket = 12;
-// var age = 0;
-// // here is my parsed prompt for age of consumer.
-// age = parseFloat(prompt("How old are you?", "25"));
-// // here is my operator
-// if (age > 54 || age < 10 ) {
-// 	
-	// //here is my output
-	// (movieTicket = 7);
-	// console.log("Since you are", age, "years old, your ticket cost is:", movieTicket, ".");
-// 
-// } else {
-	// // here is my else
-	// console.log("Since you are", age, "years old, your ticket cost is:", movieTicket, "."); 
-// 	
-// }
+here are my variables
+var movieTicket = 12;
+var age = 0;
+// here is my parsed prompt for age of consumer.
+age = parseFloat(prompt("How old are you?", "25"));
+// here is my operator
+if (age > 54 || age < 10 ) {
+	
+	//here is my output
+	(movieTicket = 7);
+	console.log("Since you are", age, "years old, your ticket cost is:", movieTicket, ".");
+
+} else {
+	// here is my else
+	console.log("Since you are", age, "years old, your ticket cost is:", movieTicket, "."); 
+	
+}
 
 // WORD PROBLEM TWO
 
