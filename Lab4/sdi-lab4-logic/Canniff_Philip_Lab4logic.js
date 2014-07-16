@@ -33,28 +33,30 @@
 // WORD PROBLEM ONE
 
 // here are my variables
-var movieTicket = 12;
-var age = 0;
-// here is my parsed prompt for age of consumer.
-age = parseFloat(prompt("How old are you?", "25"));
-// here is my operator
-if (age > 54 || age < 10 ) {
-	
-	//here is my output
-	(movieTicket = 7);
-	console.log("Since you are", age, "years old, your ticket cost is:", movieTicket, ".");
-
-} else {
-	// here is my else
-	console.log("Since you are", age, "years old, your ticket cost is:", movieTicket, "."); 
-	
-}
+// var movieTicket = 12;
+// var age = 0;
+// // here is my parsed prompt for age of consumer.
+// age = parseFloat(prompt("How old are you?", "25"));
+// // here is my operator
+// if (age > 54 || age < 10 ) {
+// 	
+	// //here is my output
+	// (movieTicket = 7);
+	// console.log("Since you are", age, "years old, your ticket cost is:", movieTicket, ".");
+// 
+// } else {
+	// // here is my else
+	// console.log("Since you are", age, "years old, your ticket cost is:", movieTicket, "."); 
+// 	
+// }
 
 // WORD PROBLEM TWO
 
 // here are my variables
+
 var one = 32;
 var two = 32;
+
 var three = 30;
 var four = 30;
 
@@ -66,16 +68,12 @@ three = parseFloat(prompt("How much psi is in tire three?", "30"));
 four = parseFloat(prompt("How much psi is in tire four?", "30"));
 
 // here is my conditional
-while (one == two && three == four) {
+if (one == two && three == four) {
 	
 	console.log("Your tires are good!");
-	break;
 	
-} if (one != two || three != four) {
+} else {
 	
 	console.log("Imbalance of tire pressure!");
 	
 }
-
-
-
