@@ -5,10 +5,10 @@ alert("Don't wake the dragon!");
 		07/14/2014
 		Deliverable 1 (Lab 3)
  */
-var dragonType = ("Fire")
+var dragonType = ("Fire");
 var dragonColor = ("Firey \"Red\"");
 var dragonLength = 42;
-dragonhealth = true
+dragonhealth = true;
 
 	console.log("There is a", dragonType, "Dragon.");
 	console.log("It is a", dragonColor, ".");
@@ -29,10 +29,9 @@ if (dragonhealth === true)
 	}
 	else
 	{
-			//Output C
-		console.log("Wrong! The dragon was unaffected and ate you!")
+			//Output C (Went with alerts instead of console.log outputs)
+		alert("Wrong! The dragon was unaffected and ate you!");
 	}
-	
 	
 }
 else
@@ -41,11 +40,11 @@ else
 	console.log("The dragon is", dragonLength, "feet long.");
 	if (dragonLength < 42)
 	{
+		//Output A
 		console.log("The dragon is small enough to sneak past!");
 	}
-	else {console.log("The dragon was too big and ate you!");
-	}
-	
+		//Output B
+	else {alert("The dragon was too big and ate you!");
+	}	
 }
-
-	console.log("At least you were brave!")
+	console.log("At least you were brave!");
