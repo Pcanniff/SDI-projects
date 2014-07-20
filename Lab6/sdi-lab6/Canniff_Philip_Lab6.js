@@ -9,7 +9,7 @@ alert("JavaScript works!");
 
 var Geo = function() {
 	
-	States = ["Virignia", "MaryLand", "California", "Kentucky", ];
+	States = ["Virignia", "MaryLand", "California", "Kentucky"];
 	Capitols = ["Richmond", "Annapolis", "Sacremento", "Frankfort"]; 
 	// Outputting my entire arrays to clarify changes.
 	console.log(Capitols, States);
@@ -23,5 +23,4 @@ var Geo = function() {
 		console.log(Capitols, States);
 };
 Geo();
-
 
