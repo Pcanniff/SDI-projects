@@ -6,38 +6,34 @@ var solution;
 var addition = function(num1, num2) {
 	
 	var solution; 
-		
-		solution = (num1 + num2);
-		return solution;
+	solution = (num1 + num2);
+	return solution;
 
 };
 
 var subtract = function(num1, num2) {
 	
 	var solution; 
-		
-		solution = (num1 - num2);
-		return solution;
+	solution = (num1 - num2);
+	return solution;
 
 };
 
 var multiply = function(num1, num2) {
 	var solution;
-		
-		solution = (num1 * num2);
-		return solution;
+	solution = (num1 * num2);
+	return solution;
 };
 
 var divide = function(num1, num2) {
 	var solution; 
-		
-		solution = (num1 / num2);
-		return solution;
+	solution = (num1 / num2);
+	return solution;
 
 };
 
 numOne = parseFloat(prompt("What is your first number?"));
-numTwo = parseFloat(prompt("what is your second number?"));
+numTwo = parseFloat(prompt("What is your second number?"));
 symbol = prompt("What form of arithmetic are you using? EX: +, -, *, or /");
 
 var evaluationsub = subtract(numOne, numTwo);
@@ -61,6 +57,5 @@ else if (symbol === "/") {
 	console.log("The quotient of", numOne, "and", numTwo, "is equal to", evaluationdivide + ".");
 } 
 } else {
-	console.log("Invalid Input");
-};
-
+ console.log("Invalid Input");
+}
