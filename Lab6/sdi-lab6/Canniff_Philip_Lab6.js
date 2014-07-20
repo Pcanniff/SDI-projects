@@ -9,10 +9,10 @@ var Geo = function() {
 		console.log(Capitols[i], "is the capital of", States[i] + ".");
 		
 	} 	
-// 		
-		// States.push("Florida");
-		// Capitols.push("Tallahassee");
-
+		
+		States.push("Florida");
+		Capitols.push("Tallahassee");
+		console.log(Capitols[4], "is the capital of", States[4] + ".");
 
 };
 Geo();
