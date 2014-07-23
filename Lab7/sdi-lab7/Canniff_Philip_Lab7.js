@@ -35,5 +35,10 @@ var heroFunction = function() {
 };
 
 heroFunction();
-
+console.log(firstHero);
+console.log(firstHero.name + " first appeared in " + firstHero.publication + " with the power of " + firstHero.power + ".", "They belong to the " + firstHero.universe + " universe.");
+console.log(secondHero);
+console.log(secondHero.name + " first appeared in " + secondHero.publication + " with the power of " + secondHero.power + ".", "They belong to the " + secondHero.universe + " univese.");
+console.log(thirdHero);
+console.log(thirdHero.name + " first appeared in " + thirdHero.publication + " with the power of " + thirdHero.power + ".", "They belong to the " + thirdHero.universe + " universe.");
 
