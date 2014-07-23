@@ -15,3 +15,25 @@ var heroConstructor = function(heroName, heroUniverse, heroPower, heroPublicatio
 	this.universe = heroUniverse;
 	this.power = heroPower;
 	this.publication = heroPublication;
+};
+
+var heroFunction = function() {
+
+	for (var index in superData.superheroes) {
+
+		if (index == 0) {
+			firstHero = new heroConstructor(superData.superheroes[index].name, superData.superheroes[index].universe, superData.superheroes[index].power, superData.superheroes[index].publication);
+
+		} else if (index == 1) {
+			secondHero = new heroConstructor(superData.superheroes[index].name, superData.superheroes[index].universe, superData.superheroes[index].power, superData.superheroes[index].publication);
+
+		} else {
+		}
+	}
+	thirdHero = new heroConstructor(superData.superheroes[index].name, superData.superheroes[index].universe, superData.superheroes[index].power, superData.superheroes[index].publication);
+
+};
+
+heroFunction();
+
+
