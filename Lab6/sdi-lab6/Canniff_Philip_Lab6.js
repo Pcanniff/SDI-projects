@@ -23,4 +23,3 @@ var Geo = function() {
 		console.log(Capitols, States);
 };
 Geo();
-
