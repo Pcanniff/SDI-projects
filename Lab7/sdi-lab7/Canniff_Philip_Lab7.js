@@ -8,7 +8,7 @@
 var firstHero;
 var secondHero;
 var thirdHero;
-
+//Here is my constructor function and internal methods.
 var heroConstructor = function(heroName, heroUniverse, heroPower, heroPublication) {
 
 	this.name = heroName;
@@ -16,7 +16,7 @@ var heroConstructor = function(heroName, heroUniverse, heroPower, heroPublicatio
 	this.power = heroPower;
 	this.publication = heroPublication;
 };
-
+//Here is my loop and object creation.
 var heroFunction = function() {
 
 	for (var index in superData.superheroes) {
@@ -33,7 +33,7 @@ var heroFunction = function() {
 	thirdHero = new heroConstructor(superData.superheroes[index].name, superData.superheroes[index].universe, superData.superheroes[index].power, superData.superheroes[index].publication);
 
 };
-
+//Here my function is outputted and my meaningful outputs are created.
 heroFunction();
 console.log(firstHero);
 console.log(firstHero.name + " first appeared in " + firstHero.publication + " with the power of " + firstHero.power + ".", "They belong to the " + firstHero.universe + " universe.");
