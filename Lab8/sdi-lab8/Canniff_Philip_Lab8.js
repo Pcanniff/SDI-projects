@@ -13,13 +13,13 @@ var emailCheck = function(emailArg) {
 	var spaceCheck = emailArg.search(" ");
 	var validation = true;
 	
-	// if ((check > -1 && (doubleCheck === check)) && (periodCheck > -1) && (spaceCheck < 0)) {
-		// var validation = true;
-	// } else {
-		// var validation = false;
-	// }
-	// return validation;
-// };
+	if ((check > -1 && (doubleCheck === check)) && (periodCheck > -1) && (spaceCheck < 0)) {
+		var validation = true;
+	} else {
+		var validation = false;
+	}
+	return validation;
+};
 // 
 // var validated = emailCheck(email);
 // console.log("It is " + validated + " that this is a valid e-mail address.");
