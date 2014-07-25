@@ -43,10 +43,10 @@ var seperatorChanger = function(stringData,sep1,sep2) {
 		
 		newString = newString + sep2 + splitString[i];
 	
-	// }
-	// return newString;
-// };
-// 
-// capture = seperatorChanger(stringOne, seperatorOne, seperatorTwo);
-// console.log(capture);
+	}
+	return newString;
+};
+
+capture = seperatorChanger(stringOne, seperatorOne, seperatorTwo);
+console.log("The following is a list of awesome people in tight suits: \"" + capture +".\"");
 
