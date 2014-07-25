@@ -20,9 +20,9 @@ var emailCheck = function(emailArg) {
 	}
 	return validation;
 };
-// 
-// var validated = emailCheck(email);
-// console.log("It is " + validated + " that this is a valid e-mail address.");
+
+var validated = emailCheck(email);
+console.log("It is " + validated + " that this is a valid e-mail address.");
 
 
 
