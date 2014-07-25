@@ -15,6 +15,11 @@ var heroConstructor = function(heroName, heroUniverse, heroPower, heroPublicatio
 	this.universe = heroUniverse;
 	this.power = heroPower;
 	this.publication = heroPublication;
+	this.powerShift = function() {
+		 if (this.power == "money" ) {
+			 this.power = "Intellect";
+		 }
+		};
 };
 //Here is my loop and object creation.
 var heroFunction = function() {
@@ -28,17 +33,16 @@ var heroFunction = function() {
 			secondHero = new heroConstructor(superData.superheroes[index].name, superData.superheroes[index].universe, superData.superheroes[index].power, superData.superheroes[index].publication);
 
 		} else {
-		}
+		thirdHero = new heroConstructor(superData.superheroes[index].name, superData.superheroes[index].universe, superData.superheroes[index].power, superData.superheroes[index].publication);
 	}
-	thirdHero = new heroConstructor(superData.superheroes[index].name, superData.superheroes[index].universe, superData.superheroes[index].power, superData.superheroes[index].publication);
-
+	}
 };
 //Here my function is outputted and my meaningful outputs are created.
 heroFunction();
-console.log(firstHero);
+
 console.log(firstHero.name + " first appeared in " + firstHero.publication + " with the power of " + firstHero.power + ".", "They belong to the " + firstHero.universe + " universe.");
-console.log(secondHero);
+
 console.log(secondHero.name + " first appeared in " + secondHero.publication + " with the power of " + secondHero.power + ".", "They belong to the " + secondHero.universe + " univese.");
-console.log(thirdHero);
+
 console.log(thirdHero.name + " first appeared in " + thirdHero.publication + " with the power of " + thirdHero.power + ".", "They belong to the " + thirdHero.universe + " universe.");
 
