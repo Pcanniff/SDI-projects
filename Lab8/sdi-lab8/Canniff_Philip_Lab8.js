@@ -32,17 +32,17 @@
 var stringOne = "Batman,Spider-man,Superman,Hulk,Shazaam,Iron-man";
 var seperatorOne = ",";
 var seperatorTwo = "/";
-// var capture = "";
-// 
-// var seperatorChanger = function(stringData,sep1,sep2) {
-// 	
-	// var splitString = stringData.split(sep1);
-	// var newString = splitString[0];
-// 	
-	// for (var i = 1; i < splitString.length; i++ ) {
-// 		
-		// newString = newString + sep2 + splitString[i];
-// 	
+var capture = "";
+
+var seperatorChanger = function(stringData,sep1,sep2) {
+	
+	var splitString = stringData.split(sep1);
+	var newString = splitString[0];
+	
+	for (var i = 1; i < splitString.length; i++ ) {
+		
+		newString = newString + sep2 + splitString[i];
+	
 	// }
 	// return newString;
 // };
