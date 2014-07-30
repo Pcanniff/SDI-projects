@@ -9,7 +9,7 @@ var returnValue;
 // Variables for Problem 2
 var caughtValue;
 var fiveOnly;
-// Functions for Problem 1
+// Function for Problem 1
 var mathCheck = function(stringArg) {
 	var answer = 0;
 	for (var i = 1; i < 1000; i++) {
